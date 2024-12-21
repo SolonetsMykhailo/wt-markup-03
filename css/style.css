@@ -3,15 +3,15 @@
     --grey_text:#757575;
     --shadow:0px 3px 5px -3px black;
 }
-a {
+a{
     color:black;
     text-decoration: none;
 }
-ul {
+ul{
     list-style-type: none;
     padding: 0;
 }
-body {
+body{
     font-family: "Roboto";
     margin: 0px;
     width: 1600px;
@@ -23,7 +23,7 @@ header{
     align-items: center;
     height: 80px;
     }
-.logo {
+header .logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
