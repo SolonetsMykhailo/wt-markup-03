@@ -132,17 +132,30 @@ header nav ul li:hover{
     margin-left: 29px;
 }
 .work ul li img{border-radius: 10px;}
-.team{background-color: #F5F4FA;}
+.team{
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .team h2 {
     font-size: 36px;
     font-weight: 700;
 }
+.team .workers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .team .workers .worker{
     background-color: #FFFFFF;
     box-shadow: var(--shadow);
-    margin-bottom: 10px;
     width: 270px;
     border-radius: 0 0 4px 4px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .team .workers .worker .name{
     font-size: 16px;
@@ -159,6 +172,16 @@ header nav ul li:hover{
     align-items: center;
     width: 44px;
     height: 44px;
+}
+.team .workers .worker ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.team .workers .worker ul li{
+    margin-right: 10px;
 }
 .team .workers .worker a:hover {
     background-color: var(--blue);
