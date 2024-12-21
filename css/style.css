@@ -188,7 +188,16 @@ header nav ul li:hover{
     fill: white;
     border-radius: 100%;
 }
-footer { background-color: #2F303A;}
+footer {
+    background-color: #2F303A;
+    display: flex;
+    width: 1600px;
+    height: 252px;
+    align-items: center;
+}
+footer .info {
+    margin-left: 215px;
+}
 footer .logo {
     color : #FFFFFF;
     font-family: "Raleway";
@@ -197,14 +206,30 @@ footer .logo {
 }
 footer address{
     color: #FFFFFF; 
-    font-size: 14px;
     font-style: normal;
 }
 footer address ul li a{color: var(--grey_text);}
+footer .mailing_list{
+    margin-left: 93px;
+    display: flex;
+    flex-direction: column;
+}
 footer h2 {
-    color: #FFFFFF; 
-    font-size: 14px;  
+    color: #FFFFFF;  
     font-weight: 700;
+}
+footer .soc_media{
+    margin-left: 43px;
+}
+footer .social{
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social li {
+    margin-right: 10px;
 }
 footer .social li a {
     fill: #FFFFFF;
@@ -217,9 +242,11 @@ footer .social li a {
     border-radius: 100%;
 }
 footer .social li a:hover { background-color: var(--blue);}
+footer form {
+    display: flex;
+}
 footer form label{
     color: #FFFFFF; 
-    font-size: 14px; 
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
@@ -231,13 +258,25 @@ footer form label input{
     border-width: 1px; 
     border-radius: 4px;
     border-style: solid;
+    width: 358px;
+    height: 50px;
 }
 
 footer form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--blue);
     cursor: pointer;  
     color: #FFFFFF; 
     fill: #FFFFFF;
     border: 0px;
     border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    margin-left: 13px;
+}
+footer form button .image{
+    margin-left: 13px;
 }
