@@ -1,0 +1,149 @@
+:root{
+    --blue:#2196F3;
+    --grey_text:#757575;
+    --shadow:0px 3px 5px -3px black;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+ul {list-style-type: none;}
+body {font-family: "Roboto";}
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo .logo {color: var(--blue);}
+header nav ul li {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+header nav ul li :hover{
+    color: var(--blue);
+    margin-right: 1px;
+}
+.contacts_info li a{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--grey_text);
+    fill: var(--grey_text)
+}
+.contacts_info li a:hover{
+    color: var(--blue);
+    fill: var(--blue);
+}
+.order {background-color: #2F303A;}
+.order h1{
+    color: #ffff;
+    font-size: 44px;
+    font-weight:900;
+}
+.order button {
+    background-color:var(--blue);
+    color: #ffff;
+    font-size: 16px;
+    font-weight:700;
+    cursor:pointer;
+    border: 0;
+    border-radius: 4px;
+}
+.advantages ul li .icon{background-color: #F5F4FA;}
+.advantages ul li h3 {
+    font-weight: 700;
+    font-size: 14px;
+}
+.advantages ul li p {color: var(--grey_text);}
+.work h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.work ul li img{border-radius: 10px;}
+.team{background-color: #F5F4FA;}
+.team h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.team .workers .worker{
+    background-color: #FFFFFF;
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+    width: 270px;
+    border-radius: 0 0 4px 4px;
+}
+.team .workers .worker .name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.team .workers .worker .role {
+    font-size: 16px;
+    color: var(--grey_text);
+}
+.team .workers .worker a {
+    fill: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+.team .workers .worker a:hover {
+    background-color: var(--blue);
+    fill: white;
+    border-radius: 100%;
+}
+footer { background-color: #2F303A;}
+footer .logo {
+    color : #FFFFFF;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+footer address{
+    color: #FFFFFF; 
+    font-size: 14px;
+    font-style: normal;
+}
+footer address ul li a{color: var(--grey_text);}
+footer h2 {
+    color: #FFFFFF; 
+    font-size: 14px;  
+    font-weight: 700;
+}
+footer .social li a {
+    fill: #FFFFFF;
+    height: 44px; 
+    width: 44px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 100%;
+}
+footer .social li a:hover { background-color: var(--blue);}
+footer form label{
+    color: #FFFFFF; 
+    font-size: 14px; 
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+footer form label input{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 30%);
+    border-width: 1px; 
+    border-radius: 4px;
+    border-style: solid;
+}
+
+footer form button{
+    background-color: var(--blue);
+    cursor: pointer;  
+    color: #FFFFFF; 
+    fill: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+}
