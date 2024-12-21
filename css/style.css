@@ -61,11 +61,21 @@ header nav ul li:hover{
     color: var(--blue);
     fill: var(--blue);
 }
-.order {background-color: #2F303A;}
+.order {
+    background-color: #2F303A;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
 .order h1{
     color: #ffff;
     font-size: 44px;
     font-weight:900;
+    width: 1048px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .order button {
     background-color:var(--blue);
@@ -75,13 +85,37 @@ header nav ul li:hover{
     cursor:pointer;
     border: 0;
     border-radius: 4px;
+    width: 200px;
+    height: 50px;
 }
-.advantages ul li .icon{background-color: #F5F4FA;}
+.advantages{
+    margin-top: 44px;
+}
+ .advantages ul {
+    display: flex;
+    margin-left: 215px;
+ }
+ .advantages ul li{
+    margin-right: 30px;
+ }
+  .advantages ul li:last-child {
+      margin-right: 0;
+  }
+.advantages ul li .icon{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .advantages ul li h3 {
     font-weight: 700;
-    font-size: 14px;
 }
-.advantages ul li p {color: var(--grey_text);}
+.advantages ul li p {
+    color: var(--grey_text);
+    width: 270px;
+}
 .work h2{
     font-size: 36px;
     font-weight: 700;
